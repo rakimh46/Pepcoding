@@ -32,7 +32,7 @@ public class Main {
         return list.removeFirst();
        }
     }
-
+// first node of linked list
     int peek() {
       if(size() == 0){
         System.out.println("Queue underflow");
