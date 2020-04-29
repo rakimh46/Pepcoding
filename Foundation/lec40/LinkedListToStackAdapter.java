@@ -1,4 +1,5 @@
 // linkedlist stack
+// linkedlist stack
 // LIFO manner
 // push--add
 // pop --remove
@@ -20,11 +21,13 @@ public class Main {
     int size() {
       return list.size();
     }
-
+    
+//add
     void push(int val) {
       list.addFirst(val);
     }
 
+//remove
     int pop() {
       if(size() == 0){
         System.out.println("Stack underflow");
@@ -36,6 +39,7 @@ public class Main {
       }
     }
 
+// head element or first node
     int top() {
       if(size() == 0){
         System.out.println("Stack underflow");
