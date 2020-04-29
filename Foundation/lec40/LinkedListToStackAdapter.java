@@ -1,4 +1,9 @@
 // linkedlist stack
+// LIFO manner
+// push--add
+// pop --remove
+// top--head 
+// size 
 import java.io.*;
 import java.util.*;
 
