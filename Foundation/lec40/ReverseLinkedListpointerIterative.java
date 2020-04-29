@@ -196,9 +196,12 @@ public class Main {
         curr = next;
       }
 
-      Node temp = head;
-      head = tail;
-      tail = temp;
+      tail=head;
+      head=prev;
+     //  swap method 
+    //   Node temp = head;
+    //   head = tail;
+    //   tail = temp;
      
     }
   }
