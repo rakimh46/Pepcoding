@@ -1,8 +1,8 @@
-*/e.g.
-[(a + b) + {(c + d) * (e / f)}] -> true
-[(a + b) + {(c + d) * (e / f)]} -> false
-[(a + b) + {(c + d) * (e / f)} -> false
-([(a + b) + {(c + d) * (e / f)}] -> false */
+//e.g.
+//[(a + b) + {(c + d) * (e / f)}] -> true
+//[(a + b) + {(c + d) * (e / f)]} -> false
+//[(a + b) + {(c + d) * (e / f)} -> false
+//([(a + b) + {(c + d) * (e / f)}] -> false 
 import java.io.*;
 import java.util.*;
 
